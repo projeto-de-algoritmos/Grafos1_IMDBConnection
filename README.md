@@ -36,7 +36,7 @@ O IMDBConnection utiliza um Internet Movie Database ou IMDb que é uma base de d
 
 ### Para distribuição Linux 🐧 :
 
-**Para a execução do projeto é necessário a instalação previa do docker-compose.**
+**Para a execução do projeto é necessário a instalação previa do docker e docker-compose.**
 
 1) [Clone](https://help.github.com/en/articles/cloning-a-repository) o repositório do projeto. Para clonar vá ao terminal e digite:
 ~~~
