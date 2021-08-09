@@ -19,7 +19,15 @@ Temas:
 O IMDBConnection utiliza um Internet Movie Database ou IMDb que é uma base de dados online de informação sobre cinema TV, música e games, hoje pertencente à Amazon, para aplicar a teoria de Kevin Bacon 🥓 de que todas as pessoas do mundo estão separadas por no máximo seis graus de distância. No nossso projeto, limitamos a base para atores e atrizes e os filmes correlacionados. Nosso trabalho propoem encontrar o vínculo mais curto entre o ator ou atriz de interesse e qualquer ator ou atriz alvo.
 
 ## 📷 Screenshots 
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+1) Visualize o Grafo completo:
+![get_full_graph](img/full_graph.jpg)
+
+2) Pesquise sobre um ator ou atriz:
+![actor_graph](img/actor_graph.jpg)
+
+3) Visualize o menor caminho entre os atores ou atrizes:
+![shortest_path](img/shortest_path.jpg)
 
 ## ⚙️ Instalação 
 **Linguagem**: 🐍 Python<br>
@@ -54,24 +62,20 @@ Utilize o isominia para as requisições http. Siga os exemplos a baixo pra util
 
 1) Visualize o Grafo completo em:http://localhost:3456/get_full_graph
 
-![get_full_graph](img/full_graph.jpg)
-
-2) Pesquise sobre um ator ou atriz em: http://localhost:3456/actor_graph
+2) Pesquise sobre um ator ou atriz enviado o payload a baixo para: http://localhost:3456/actor_graph
 ~~~
 {
     "actor": "Lara Grice"
 }
 ~~~
-![actor_graph](img/actor_graph.jpg)
 
-3) Visualize o menor caminho entre os atores ou atrizes em: http://localhost:3456/shortest_path
+3) Visualize o menor caminho entre os atores ou atrizes enviado o payload a baixo para: http://localhost:3456/shortest_path
 ~~~
 { 
     "start": "Seu Jorge",
     "target":  "Leonardo DiCaprio"
 }
 ~~~
-![shortest_path](img/shortest_path.jpg)
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
