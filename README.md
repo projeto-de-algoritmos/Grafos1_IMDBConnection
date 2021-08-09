@@ -3,8 +3,7 @@
 Temas:
  - Grafos1
 
-# NomedoProjeto
-  🕸️ IMDBConnection
+# 🕸️ IMDBConnection
   
 **Número da Lista**: 14<br>
 **Conteúdo da Disciplina**: BFS <br>
