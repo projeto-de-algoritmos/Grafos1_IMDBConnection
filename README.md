@@ -16,7 +16,7 @@ Temas:
 | 16/0005736  |  👩‍💻 Fabiana Luiza Vasconcelos Pfeilsticker Ribas |
 
 ## Sobre ℹ️
-O IMDBConnection utiliza um Internet Movie Database ou IMDb que é uma base de dados online de informação sobre cinema TV, música e games, hoje pertencente à Amazon, para aplicar a teoria de Kevin Bacon de que todas as pessoas do mundo estão separadas por no máximo seis graus de distância. No nossso projeto, limitamos a base para atores e atrizes e os filmes correlacionados. Nosso trabalho propoem encontrar o vínculo mais curto entre o ator ou atriz de interesse e qualquer ator ou atriz alvo.
+O IMDBConnection utiliza um Internet Movie Database ou IMDb que é uma base de dados online de informação sobre cinema TV, música e games, hoje pertencente à Amazon, para aplicar a teoria de Kevin Bacon 🥓 de que todas as pessoas do mundo estão separadas por no máximo seis graus de distância. No nossso projeto, limitamos a base para atores e atrizes e os filmes correlacionados. Nosso trabalho propoem encontrar o vínculo mais curto entre o ator ou atriz de interesse e qualquer ator ou atriz alvo.
 
 ## Screenshots 📷
 Adicione 3 ou mais screenshots do projeto em funcionamento.
@@ -55,7 +55,7 @@ $ $ pip install -r requirements.txt
 5) Para compilar o projeto, entre a pasta /api e execute o comando do docker:
 ~~~
 $ cd api
-$ docker compose-up --build
+$ docker-compose up --build
 ~~~
 
 6) Depois de realizar todos esses passos, aproveite o projeto e divirta-se! 😉
