@@ -1,5 +1,7 @@
 # Grafos1_IMDBConnection
 
+Explicação: https://youtu.be/PUTXrwauBLQ
+
 Temas:
  - Grafos1
 
